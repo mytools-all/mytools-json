@@ -1,0 +1,41 @@
+{
+  "name": "@mytools-all/mytools-json",
+  "version": "0.1.0",
+  "description": "JSON 编辑器",
+  "type": "module",
+  "main": "index.html",
+  "license": "MIT",
+  "author": "MyTools Contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mytools-all/mytools-json.git"
+  },
+  "homepage": "https://github.com/mytools-all/mytools-json#readme",
+  "bugs": {
+    "url": "https://github.com/mytools-all/mytools-json/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "plugin.json",
+    "*.html",
+    "*.css",
+    "*.svg",
+    "*.png",
+    "vendor/",
+    "LICENSE",
+    "THIRD_PARTY.md",
+    "README.md",
+    "app.mjs",
+    "common.mjs",
+    "utils.mjs",
+    "yaml.mjs",
+    "*.js",
+    "*.LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  }
+}

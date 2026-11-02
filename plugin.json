@@ -1,0 +1,22 @@
+{
+  "name": "mytools-json",
+  "description": "JSON 编辑器",
+  "apiVersion": 1,
+  "main": "index.html",
+  "pluginName": "JSON 编辑器",
+  "version": "0.1.0",
+  "capabilities": [
+    "clipboard.write"
+  ],
+  "features": [
+    {
+      "code": "format",
+      "explain": "打开JSON 编辑器",
+      "cmds": [
+        "JSON 格式化",
+        "json",
+        "JSON 编辑器"
+      ]
+    }
+  ]
+}
